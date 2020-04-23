@@ -1,7 +1,0 @@
-spring:
-  profile: native
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: file://${user.home}/config-repo #해당 위치에 앱이름-프로파일.yml config 파일넣고 http://ip:port/앱이름/프로파일

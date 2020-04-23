@@ -1,0 +1,12 @@
+server:
+  port: 10002
+spring:
+  profiles:
+    active: local
+  application:
+    name: article-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info, refresh
